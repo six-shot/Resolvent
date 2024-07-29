@@ -1,18 +1,17 @@
-
 import React from "react";
-import hero from "../../assets/hero2.gif"
+import hero from "../../assets/hero2.gif";
 import Navbar from "../navbar";
 
 export default function Hero() {
   return (
     <div className="max-w-[1440px] mx-auto">
       <div className="relative w-full h-[100vh] text-white">
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col  items-center justify-center z-20 mt-[16vh] ">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col  items-center justify-center z-20 mt-[13vh] ">
           <img className=" z-10 " src={hero} alt="hero" />
           <h4 className="uppercase text-[128px] font-dela -mt-[20%] relative z-[30]">
             Resolvent
           </h4>
-          <h5 className="uppercase text-lg font-khyay text-center relative z-[30] mt-[7%]">
+          <h5 className="uppercase text-lg font-khyay text-center relative z-[30] mt-[5%]">
             "Resolvent: Where scarcity meets solution, empowering collectors
             with access to unique digital treasures."
           </h5>
